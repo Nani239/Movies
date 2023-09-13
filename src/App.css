@@ -1,6 +1,19 @@
 .App {
   text-align: center;
 }
+body {
+  background: linear-gradient(
+    135deg,
+    #cfe1e4,
+    #dce7dc
+  ); /* Adjust gradient colors as desired */
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  color: #000000; /* Set text color to white for better readability */
+}
+
+/* Add any additional CSS styles as needed */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +48,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+.MovieNames {
+  background: linear-gradient(137deg, #5087ff 0%, #29efc4 100%);
+  color: #ffffff;
+  align-items: center;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+.MovieNames:hover {
+  background: linear-gradient(
+    137deg,
+    #29efc4 0%,
+    #5087ff 100%
+  ); /* Change background color on hover */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  color: #000000;
+}
+/* MoviesList.css */
+
+.slideshow-container {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
